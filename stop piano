@@ -1,0 +1,9 @@
+-- CONFIG:
+shared.ftime = 1*00 + 1 -- time in seconds for the song to finish (extended by |)
+shared.delay = nil -- delay overides the ftime
+shared.tempo = nil -- tempo overides the delay
+
+shared.scr = [[ 
+[] ]]
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Nameless9000/RobloxPianoAutoplayer/main/script.lua"))()
